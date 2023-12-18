@@ -1,0 +1,31 @@
+@media screen and (max-width: 550px) and (min-width:360px) {
+    #menu {
+        display: none;
+    }
+
+    #menu_btn_mobile {
+        display: block;
+        position: relative;
+        top: -78px;
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    #logo img {
+        margin: 0px;
+        margin-top: 13px;
+    }
+
+    #menu_mobile {
+        background: #FFEFD4;
+  height: 1000px;
+  width: 61%;
+  margin-left: -8px;
+  position: relative;
+  z-index: 10000;
+  top: -115px;
+    }
+}

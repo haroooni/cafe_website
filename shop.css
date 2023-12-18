@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "cinema" ;
+    src : url(../font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf)
+}
+
+@font-face {
+    font-family: "yekan" ;
+    src: url(../font/YEKAN-BAKH-FANUM-04-REGULAR.WOFF);
+}
+
+@font-face {
+  font-family: "nova" ;
+  src: url(../font/ArialNova-Light.ttf);
+}
+
+@font-face {
+  font-family: "tra" ;
+  src: url(../font/trebuc.ttf);
+}
+body {
+    background-color: #485E4E;
+}
+
+#logo img {
+    width: 52px;
+    margin-right: 48px;
+    margin-top: 35px;
+}
+
+#logo {
+    display: flex;
+    justify-content: end;
+}
+
+#menu_border {
+    width: 720px;
+    height: 90px;
+  border-radius: 75px;
+  background-color: #3D5042;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-left: 233px;
+}
+
+#menu {
+    display: flex;
+  justify-content: center;
+  margin-top: -86px;
+}
+
+#menu_list {
+    display: flex; 
+    justify-content: center;
+    gap: 30px;
+    font-family: tra;
+    align-items: center;
+    font-size: 13px;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFEFD4;
+}
+
+.border {
+    width: 2px;
+  height: 30px;
+  background-color: #425647;
+}
+
+#baner_1 img {
+    width: 800px;
+    height: 470px;
+  border-radius: 65px;
+}
+
+#baner_2 img {
+    width: 280px;
+    height: 586px;
+    margin-top: -214px;
+}
+
+#baner_1 {
+  margin-top: -100px;
+}
+
+#home_page {
+    display: flex;
+    justify-content: center;
+    margin-top: 124px;
+    gap: 35px;
+}
+
+#btn_baner_2 {
+    width: 200px;
+  height: 78px;
+  background-color: #FF8343;
+  border: 0px;
+  border-radius: 11px;
+  margin-left: -276px;
+  margin-right: 42px;
+  margin-top: 258px;
+  font-size: 25px;
+  color: #FFEFD4;
+}
+
+#link_btn_baner_2 {
+  margin-right: -35px;
+}
+
+#next {
+  border: 0;
+  background: #F7945E;
+  border-radius: 13px 0px 0px 13px;
+  width: 50px;
+  height: 50px;
+  margin-left: -179px;
+  margin-top: 425px;
+}
+
+#path {
+  border: 0;
+  background: #F7945E;
+  border-radius: 0px 13px 13px 0px;
+  width: 50px;
+  height: 50px;
+  margin-left: -5px;
+}
+
+#path:hover {
+  background: #EC8B56;
+}
+
+#next:hover {
+  background: #EC8B56;
+}
+
+#slider {
+  margin-top: -129px;
+}
+
+#menu_btn_mobile {
+  display: none;
+}
